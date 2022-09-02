@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+*,*:before,*:after{
+-moz-box-sizing:border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{background: rgb(241, 238, 6);
+    animation: change-background 3s;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+.conteiner{display: flex;
+  max-width: 1170px;  
+  
+}
+.image__valeriya{
+    margin: 0 auto;
+    height: auto;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0px 10px 0px 10px;
+}
+.first__picture{background: url(https://sun9-24.userapi.com/impg/Xc8Ws6itf1aRIVlgYrWU53lAyeHy9dqNClE-aA/0QapCF10euI.jpg?size=1280x853&quality=96&sign=45cc79cbcecb7c6c40fadf32f3d37690&type=album)center/cover;
+width: 1170px;
+height: 600px;
+    margin: 0px 0px 20px 0px;
+box-shadow:0px 0px 10px  rgb(0, 0, 0);
+}
+.second__picture{
+    width: 1200px;
+    height: 600px;
+    background: url(https://sun9-38.userapi.com/impf/c824504/v824504263/f9bee/1JVfsjAyffU.jpg?size=750x751&quality=96&sign=bb8f880c873a193051d47710ec153d5f&type=album)center/cover;
+    margin: 0px 0px 20px 0px;
+    box-shadow:0px 0px 10px  rgb(0, 0, 0);}
+
+.three__picture{
+    width: 1200px;
+    height: 600px;
+    background: url(https://sun9-21.userapi.com/impg/XoO-6lJyhcqpwTubFQArVpWdpRMuds6eNyhA8g/HUoctrHzcQ0.jpg?size=607x1080&quality=95&sign=d6fc0b07f4a2bcaa328da6b729eb1398&type=album)center/cover;; 
+    margin: 0px 0px 20px 0px;
+    box-shadow:0px 0px 10px  rgb(0, 0, 0);
+}
+.first__picture:active{transform: scaleX(-1);
+    transition: 3s;
+    width: 1200px;
+    height: 600px;
+    background: url(https://avatars.mds.yandex.net/get-mpic/5332815/img_id7035924168780906356.jpeg/orig)center/cover;}
+    .second__picture:active{transform: scaleX(-1);
+        transition: 3s;
+        width: 1200px;
+        height: 600px;
+        background: url(https://hudognik.net/cache/3870_gal2.jpg)center/cover;}
+        .three__picture:active{transform: scaleX(-1);
+            transition: 3s;
+            width: 1200px;
+    height: 600px;
+    background: url(https://www.neizvestniy-geniy.ru/images/works/photo/2012/06/645925_1.jpg)center/cover;}
+ 
+.conteiner:first-child{margin-top: 10px;}
+
+@keyframes change-background {
+    0% {
+       
+    }
+    25% {
+        
+    }
+    50% {
+        opacity: 80%;
+    }
+    75% {
+        opacity: 85%;
+    }
+    85% {
+        opacity: 95%;
+    }
+    100% {
+        opacity: 100%;
+    }
+  }
