@@ -66,7 +66,7 @@ box-shadow:0px 0px 10px  rgb(0, 0, 0);
     width: 1200px;
     height: 600px;
     background: url(https://ie.wampi.ru/2022/09/05/1350415.jpg)center/cover;}
-    .second__picture:active{transform: rotate(360deg;
+    .second__picture:active{transform: rotate(360deg);
         transition: 3s;
         width: 1200px;
         height: 600px;
@@ -75,7 +75,7 @@ box-shadow:0px 0px 10px  rgb(0, 0, 0);
             transition: 3s;
             width: 1200px;
     height: 600px;
-    background: url(https://www.neizvestniy-geniy.ru/images/works/photo/2012/06/645925_1.jpg)center/cover;}
+    background: url(https://im.wampi.ru/2022/09/05/Poet_3.jpg)center/cover;}
  
 .conteiner:first-child{margin-top: 10px;}
 
