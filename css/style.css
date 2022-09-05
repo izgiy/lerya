@@ -65,7 +65,7 @@ box-shadow:0px 0px 10px  rgb(0, 0, 0);
     transition: 3s;
     width: 1200px;
     height: 600px;
-    background: url(https://downloader.disk.yandex.ru/preview/3fb6a516dfdd3097546320f71142172e76bccb6d18a0edaefcb3be29e0bba024/6316705d/XGqT4xXlxVguiAKNtPpViiMxzcsik6CkY3ngHAXUY5p9zspEyPIl1Dl8LOBwgfxRdR-5mSISp1X6chLEidarGg%3D%3D?uid=0&filename=1350415.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=1232x884)center/cover;}
+    background: url(https://downloader.disk.yandex.ru/preview/3fb6a516dfdd3097546320f71142172e76bccb6d18a0edaefcb3be29e0bba024/6316705d/XGqT4xXlxVguiAKNtPpViiMxzcsik6CkY3ngHAXUY5p9zspEyPIl1Dl8LOBwgfxRdR-5mSISp1X6chLEidarGg%3D%3D?uid=0&filename=1350415.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=1232x884.jpg)center/cover;}
     .second__picture:active{transform: scaleX(-1);
         transition: 3s;
         width: 1200px;
